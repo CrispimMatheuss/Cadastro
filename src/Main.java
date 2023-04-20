@@ -17,6 +17,8 @@ public class Main {
         cliente.setAumentarLimite(5000.0);
         System.out.println("Novo limite: " + cliente.getLimiteCrediario());
 
+        System.out.println(pedVenda);
+
         cliente.setLimiteUtilizado(pedVenda.getValorTotalVenda());
         System.out.println("Limite utilizado: " + cliente.getLimiteUtilizado());
         System.out.println("Limite disponível: " + cliente.getLimiteCrediario());
